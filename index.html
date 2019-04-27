@@ -5,28 +5,24 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/images/day-1-logo.jpg?raw=true
- ">
-
-  <nav class= "toplinks">
-    <ul>
-<li><a href="">MEN</a></li>
-<li><a href="">WOMEN</a></li>
-<li><a href="">BOYS</a></li>
-<li><a href="">GIRLS</a></li>
-<li><a href="">CUSTOMIZE</a></li>
+<nav class= "toplinks clearfix">
+<img class= "logo" src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-logo.jpg?raw=true">
+<ul class= menu1>
+ <li><a href="">MEN</a></li>
+ <li><a href="">WOMEN</a></li>
+ <li><a href="">BOYS</a></li>
+ <li><a href="">GIRLS</a></li>
+ <li><a href="">CUSTOMIZE</a></li>
 </ul>
-</nav>
-
-<nav>
-  <ul>
-    <li><a href="">Help</a></li>
-    <li><a href="">My Account</a></li>
-    <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-cart.jpg?raw=true">
-    <li><a href="">Shopping Cart (2)</a></li>
+<ul class = "menu">
+   <li><a href="">Help</a></li>
+   <li><a href="">My Account</a></li>
+   <li><img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-cart.jpg?raw=true"><a href="">Shopping Cart (2)</a></li>
+</ul>
+  </nav>
 <div class= "shoe1 clearfix">
-  <h6> BACK TO ALL SHOES </h6>
-  <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/images/day-1-shoe1.png?raw=true">
+  <h6 class= "back"> ← BACK TO ALL SHOES </h6>
+  <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe1.png?raw=true">
   <div class= "quicksneakers">
     <h2> Quick Sneakers </h2>
     <h6> SPRING/SUMMER 2017 </H6>
@@ -35,10 +31,13 @@
       <a href= "" class= "button">BUY NOW!</a>
     <h6> ---------------------------------------------------------------------------------------------------------------</h6>
     <p> ursus sed a a adipiscing molestie a est ridiculus aptent etiam netus quis adispiscing bibendum eleifend parturient aptent a a vulputate nam justo ned nam scelerisque.</p>
-  </div>
 </div>
-<p> Product Details </p>
-<p> Size & Fit </p>
+</div>
+<div class= "productdetails">
+ <p> Product Details </p>
+ <p> Size & Fit </p>
+ <p> Reviews ★★★★☆ </p>
+</div>
 <h1> Exciting Topic </h1>
 <p> Content here </p>
 <h> Exciting Topic </h>
@@ -51,37 +50,46 @@
 <h4> Shop Recommended Shoes </h4>
 </div>
 <div class= "shoes3">
+  <div class= "container">
   <div class= "sneaker">
     <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe2.png?raw=true">
     <h1> Funny Sneakers</h1>
     <span>$120.00</span>
     <p> Spring/Summer 2017</p>
   </div>
-  <div class="sneaker">
-    <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe3.png?raw=true">
-    <h1> Nimble Sneakers </h1>
-    <span>$120.00</span>
-    <p> Spring/Summer 2017</p>
-  </div>
-  <div class= "sneaker">
+<div class="sneaker">
+  <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe3.png?raw=true">
+  <h1> Nimble Sneakers </h1>
+  <span>$120.00</span>
+  <p> Spring/Summer 2017</p>
+</div>
+<div class= "sneaker">
     <img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe4.png?raw=true">
     <h1> Cute Sneakers </h1>
     <span> $120.00 </span>
     <p> Spring/Summer 2017 </p>
-  </div>
 </div>
-<img src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/images/day-1-logo.jpg?raw=true">
-
-
+</div>
+</div>
+<img class= "logo2"src= "https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-logo.jpg?raw=true">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="exercises.js"></script>
 <footer>
   <nav>
-    <ul>
-<li><a href="">MEN</a></li>
-<li><a href="">WOMEN</a></li>
-<li><a href="">BOYS</a></li>
-<li><a href="">GIRLS</a></li>
-<li><a href="">CUSTOMIZE</a></li>
+<ul>
+ <li><a href="">MEN</a></li>
+ <li><a href="">WOMEN</a></li>
+ <li><a href="">BOYS</a></li>
+ <li><a href="">GIRLS</a></li>
+ <li><a href="">CUSTOMIZE</a></li>
+</ul>
+<ul class= "shipping">
+  <li><a href="">Shipping</a>|</li>
+  <li><a href="">Terms & Conditions</a>|</li>
+  <li> © Copyright 2017.Sneaker Shop,LLC.
 </ul>
 </nav>
 </footer>
+</body>
 </html>

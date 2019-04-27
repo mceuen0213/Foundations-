@@ -1,20 +1,49 @@
+.logo {
+  width:50px;
+  float:left;
+}
+
 .toplinks {
   color: orange;
 }
+
+.menu1 {
+  float:left;
+}
+
+nav {
+  font-size: 15px;
+  padding-left: 0px;
+}
+
 li {
   display:inline;
 }
+
+.menu {
+  float: right;
+}
+
 .shoe1 {
   background: linear-gradient(red, purple);
+  height: 550px;
 }
+
+.back {
+  color: white
+}
+
 .shoe1 img {
-  width: 400px;
+  width: 500px;
+  margin: 50px;
 }
+
 .clearfix {
   overflow: auto;
   zoom: 1;
 }
-.button{
+
+.button {
   display: inline-block;
   background: white;
   padding: 10px 20px;
@@ -23,20 +52,58 @@ li {
   border-radius: 4px;
   font-size: 16px;
 }
+
 nav a {
   color: orange;
 }
+
 .Recommended {
-  background-color: pink;
+  background-color: lightpink;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
 }
+
 .quicksneakers {
   display: inline-block;
   float:right;
   width: 50%;
+  color: white;
+  font-size: 21px;
+  margin-top: 0;
 }
+
+.productdetails {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .container {
-  display: inline-block;
-  width: 33%;
-  margin-right: 10px;
-  
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width:70%;
   }
+
+.sneaker {
+  display: inline-block;
+  width: 200px;
+  color: white;
+}
+
+  .sneaker img {
+    width: 100%;
+  }
+
+.logo2 {
+  float:left;
+  width: 50px;
+}
+.shipping {
+  float:right;
+  color: black;
+}
+.shoes3 {
+  background:red;
+}
